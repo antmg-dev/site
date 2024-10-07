@@ -2,8 +2,8 @@ version: "3"
 
 services:
   webserver:
-    image: ghcr.io/antmg-dev/aegtcp/site:main
+    image: ghcr.io/antmg-dev/site/site:main
     restart: always
-    container_name: aegtcp-webserver
+    container_name: antmgdev-webserver
     ports:
-      - "13985:80"
+      - "13986:80"
